@@ -1,4 +1,5 @@
-MANIFEST
 Makefile.PL
+MANIFEST
 README
 Shipping.pm
+META.yml                                 Module meta-data (added by MakeMaker)
