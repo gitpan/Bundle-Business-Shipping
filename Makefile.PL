@@ -5,5 +5,5 @@ WriteMakefile(
     'PREREQ_PM'		=> {},
     ($] >= 5.005 ?   
       (ABSTRACT_FROM => 'lib/Bundle/Business/Shipping.pm', # retrieve abstract from module
-       AUTHOR     => 'Dan Browning <db@kavod.com>') : ()),
+       AUTHOR     => 'Daniel Browning <db@kavod.com>') : ()),
 );
