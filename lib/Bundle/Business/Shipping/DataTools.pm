@@ -1,6 +1,6 @@
-package Bundle::Business::Shipping;
+package Bundle::Business::Shipping::DataTools;
 
-$VERSION = '1.09';
+$VERSION = '1.00';
 
 1;
 
@@ -8,43 +8,23 @@ __END__
 
 =head1 NAME
 
-Bundle::Business::Shipping - a Bundle for Business::Shipping.
+Bundle::Business::Shipping::DataTools
 
 =head1 SYNOPSIS
 
- perl -MCPAN -e install Bundle::Business::Shipping
+ perl -MCPAN -e install Bundle::Business::Shipping::DataTools
 
 See the INSTALL file in Business::Shipping for more information.
 
 =head1 CONTENTS
 
-Bundle::DBD::CSV
+Bundle::Business::Shipping::UPS_Offline
 
-Business::Shipping
+Getopt::Mixed
 
-Business::Shipping::DataFiles
+=head1 SEE ALSO
 
-Cache::FileCache
-
-Class::MethodMaker::Engine
-
-Clone
-
-Config::IniFiles
-
-Crypt::SSLeay
-
-Log::Log4perl
-
-LWP::UserAgent
-
-Math::BaseCnv
-
-Scalar::Util        1.10
-
-XML::DOM
-
-XML::Simple         2.05
+L<Business::Shipping>
 
 =head1 AUTHOR
 
@@ -57,3 +37,5 @@ reserved.  This program is free software; you may redistribute it and/or modify
 it under the same terms as Perl itself. See LICENSE for more info.
 
 =cut
+
+

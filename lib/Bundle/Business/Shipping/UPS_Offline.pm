@@ -1,6 +1,6 @@
-package Bundle::Business::Shipping;
+package Bundle::Business::Shipping::UPS_Offline;
 
-$VERSION = '1.09';
+$VERSION = '1.00';
 
 1;
 
@@ -8,43 +8,29 @@ __END__
 
 =head1 NAME
 
-Bundle::Business::Shipping - a Bundle for Business::Shipping.
+Bundle::Business::Shipping::UPS_Offline
 
 =head1 SYNOPSIS
 
- perl -MCPAN -e install Bundle::Business::Shipping
+ perl -MCPAN -e install Bundle::Business::Shipping::UPS_Offline
 
 See the INSTALL file in Business::Shipping for more information.
 
 =head1 CONTENTS
 
-Bundle::DBD::CSV
+Bundle::Business::Shipping::Basic
 
-Business::Shipping
+Bundle::DBD::CSV
 
 Business::Shipping::DataFiles
 
-Cache::FileCache
-
-Class::MethodMaker::Engine
-
-Clone
-
 Config::IniFiles
-
-Crypt::SSLeay
-
-Log::Log4perl
-
-LWP::UserAgent
 
 Math::BaseCnv
 
-Scalar::Util        1.10
+=head1 SEE ALSO
 
-XML::DOM
-
-XML::Simple         2.05
+L<Business::Shipping>
 
 =head1 AUTHOR
 
