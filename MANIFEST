@@ -1,5 +1,5 @@
+lib/Business/Shipping.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
+META.yml
 README
-Shipping.pm
-META.yml                                 Module meta-data (added by MakeMaker)
