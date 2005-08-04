@@ -1,6 +1,6 @@
 package Bundle::Business::Shipping;
 
-$VERSION = '1.09';
+$VERSION = '1.11';
 
 1;
 
@@ -17,8 +17,6 @@ Bundle::Business::Shipping - a Bundle for Business::Shipping.
 See the INSTALL file in Business::Shipping for more information.
 
 =head1 CONTENTS
-
-Bundle::DBD::CSV
 
 Business::Shipping
 
@@ -38,9 +36,7 @@ Log::Log4perl
 
 LWP::UserAgent
 
-Math::BaseCnv
-
-Scalar::Util        1.10
+Scalar::Util
 
 XML::DOM
 

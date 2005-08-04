@@ -1,6 +1,6 @@
 package Bundle::Business::Shipping::Basic;
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 1;
 
@@ -24,7 +24,9 @@ Class::MethodMaker::Engine
 
 Log::Log4perl
 
-Scalar::Util        1.10
+Scalar::Util
+
+Test::More          0.40
 
 =head1 SEE ALSO
 

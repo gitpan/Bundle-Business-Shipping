@@ -1,6 +1,6 @@
 package Bundle::Business::Shipping::UPS_Offline;
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 1;
 
@@ -20,13 +20,9 @@ See the INSTALL file in Business::Shipping for more information.
 
 Bundle::Business::Shipping::Basic
 
-Bundle::DBD::CSV
-
 Business::Shipping::DataFiles
 
 Config::IniFiles
-
-Math::BaseCnv
 
 =head1 SEE ALSO
 
